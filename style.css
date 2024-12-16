@@ -1,1 +1,47 @@
+/* Скидання відступів */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+header {
+    background-color: #8B4513; /* Колір дерева */
+    color: white;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.image-container {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%; /* Масштабування зображення */
+    height: auto; /* Збереження пропорцій */
+    border: 5px solid #8B4513; /* Рамка кольору дерева */
+    border-radius: 8px; /* Закруглені кути */
+}
+
+footer {
+    background-color: #8B4513;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
